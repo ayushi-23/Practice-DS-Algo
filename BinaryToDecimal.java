@@ -1,7 +1,10 @@
-//binary to decimal
+/*
+author : Ayushi Saxena
+Problem Statement : Binary to Decimal 
+*/
 import java.util.*;
 
-public class Competitve {
+public class Main {
 
 	public static void main (String args[]) {
 		//110010

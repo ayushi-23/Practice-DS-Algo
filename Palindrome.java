@@ -1,6 +1,11 @@
 import java.util.*;
+/*
+author : Ayushi Saxena
+Problem Statement : Find whether a number is Palindrome
 
-public class Competitve {
+*/
+
+public class Main {
 
 	public static void main (String args[]) {
 		int num;

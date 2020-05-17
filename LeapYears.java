@@ -1,12 +1,12 @@
 import java.util.*;
-//leap year
-public class Competitve {
+/*
+author : Ayushi Saxena
+Problem Statement : Find all Leap years between 2000 and 3000
+*/
+public class Main {
 
 	public static void main (String args[]) {
-		//int num;
-		//Scanner scan = new Scanner(System.in);
 		
-		//num = scan.nextInt();
 		for(int i=2000;i<=3000;i+=4) {
 			if(i%4==0)
 			{

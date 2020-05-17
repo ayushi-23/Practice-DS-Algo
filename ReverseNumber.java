@@ -1,6 +1,9 @@
 import java.util.*;
-
-public class Competitve {
+/*
+author : Ayushi Saxena
+Problem statement : Reverse of a number
+*/
+public class Main {
 
 	public static void main (String args[]) {
 		int N,i=0,j,k,rev;

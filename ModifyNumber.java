@@ -1,6 +1,9 @@
 import java.util.*;
-
-public class Competitve {
+/*
+author : Ayushi Saxena
+Problem Statement : Replace 0s with 5 in a particular number
+*/
+public class Main {
 
 	public static void main (String args[]) {
 		int num;

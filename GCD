@@ -1,7 +1,11 @@
-//GCD of 2 nos.
-import java.util.*;
 
-public class Competitve {
+import java.util.*;
+/*
+author : Ayushi Saxena
+Problem Statement : GCD of two numbers
+*/
+
+public class Main {
 
 	public static void main (String args[]) {
 		int N;

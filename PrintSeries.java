@@ -1,5 +1,8 @@
 import java.util.*;
-
+/*
+author : Ayushi Saxena
+Problem Statement : Print terms of series 3n+2
+*/
 public class Competitve {
 
 	public static void main (String args[]) {

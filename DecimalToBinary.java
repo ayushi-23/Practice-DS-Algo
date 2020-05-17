@@ -1,6 +1,9 @@
 import java.util.*;
-
-public class Competitve {
+/*
+author : Ayushi Saxena
+Problem Statement : Decimal to Binary 
+*/
+public class Main {
 
 	public static void main (String args[]) {
 		int num;

@@ -1,6 +1,9 @@
 import java.util.*;
-
-public class Competitve {
+/*
+author : Ayushi Saxena
+Problem Statement : Sum of Odd and even terms of a number
+*/
+public class Main {
 
 	public static void main (String args[]) {
 		int num;

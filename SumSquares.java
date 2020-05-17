@@ -1,6 +1,9 @@
 import java.util.*;
-//quesn 3.7
-public class Competitve {
+/*
+author : Ayushi Saxena
+Problem Statement : Find pairs of numbers such that Sum of squares of those numbers is equal to inputted number 
+*/
+public class Main {
 	
 	public static void main (String args[]) {
 		int num;
@@ -18,6 +21,6 @@ public class Competitve {
 		}
 	}
 		 
-			//System.out.println("No of trailing zeroes of fact:"+count);
+			
 }
 }

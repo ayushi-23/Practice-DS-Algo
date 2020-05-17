@@ -1,6 +1,10 @@
 import java.util.*;
-//quesn 3.1 armstrong
-public class Competitve {
+/*
+author : Ayushi Saxena
+Problem statement : Armstrong number
+*/
+
+public class Main {
 	
 	public static void main (String args[]) {
 		int num;
@@ -9,16 +13,16 @@ public class Competitve {
 		num = scan.nextInt();
 		int no = num;
 		int sum=0,flag=0,rem;
-		//int arr[] = new int[num];
+		
 		while (num>0) {
 			rem = num%10;
 			sum=sum+rem*rem*rem;
-			System.out.println(sum);
+			
 			num/=10;
 		}
 		if(sum==no)
-			System.out.println("Armstrong");
+			System.out.println("Armstrong Number");
 		else
-			System.out.println("Not Armstrong");
+			System.out.println("Not Armstrong Number");
 }
 }
