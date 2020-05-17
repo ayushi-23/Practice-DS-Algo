@@ -1,0 +1,23 @@
+//GCD of 2 nos.
+import java.util.*;
+
+public class Competitve {
+
+	public static void main (String args[]) {
+		int N;
+		int a,b;
+		Scanner scan = new Scanner(System.in);
+		a = scan.nextInt();
+		b = scan.nextInt();
+		int gcd=0;
+		int small = (a<b)?a:b;
+		for(int i=1;i<=small;++i) {
+			if(a%i==0 && b%i==0) {
+				gcd = i;
+			}
+		}
+		System.out.println("GCD of"+a+" "+ b + " is:"+gcd);
+		scan.close();
+	}
+	
+}

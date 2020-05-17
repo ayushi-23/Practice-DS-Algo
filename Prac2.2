@@ -1,0 +1,19 @@
+//Assignment 2 Q2
+import java.util.*;
+
+public class Competitve {
+
+	public static void main (String args[]) {
+		char ch;
+		Scanner scan = new Scanner(System.in);
+		ch = scan.next().charAt(0);
+		if(ch>='a' && ch<='z') 
+			System.out.println("Lowercase");
+		
+		else if(ch>='A' && ch<='Z')
+			System.out.println("Uppercase");
+		else
+			System.out.println("Invalid Character");
+	}
+	
+}

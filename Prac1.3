@@ -1,0 +1,29 @@
+//Prime nos Between 2 and N
+import java.util.*;
+
+public class Competitve {
+
+	public static void main (String args[]) {
+		int N,flag=0;
+		
+		Scanner scan = new Scanner(System.in);
+		N = scan.nextInt();
+		
+		System.out.println("Prime Nos between 2 and N are:");
+		for(int i=2;i<N;++i) {
+			flag=0;
+			for(int j=2;j<=i;++j)
+			{
+			if(i%j==0 && j!=i){
+				flag =1;
+			}
+			}
+			if(flag==0)
+				System.out.println(i);
+			
+		}
+		
+		scan.close();
+	}
+	
+}

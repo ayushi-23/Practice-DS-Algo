@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class Competitve {
+
+	public static void main (String args[]) {
+		int num;
+		Scanner scan = new Scanner(System.in);
+		
+		num = scan.nextInt();
+		//String no = String.valueOf(num);
+		String binary="";
+		String reverse="";
+		
+		while(num>0) {
+			int rem = num%10;
+			binary = binary+String.valueOf(rem);
+			num = num/10;
+			
+			
+		}
+		
+		System.out.println("Binary No:"+binary);
+	
+	}
+	}

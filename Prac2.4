@@ -1,0 +1,30 @@
+//Assignment 2 Q3
+import java.util.*;
+import java.math.*;
+
+public class Competitve {
+
+	public static void main (String args[]) {
+		Scanner scan = new Scanner(System.in);
+		float d,root1,root2;
+		float a,b,c;
+		a = scan.nextFloat();
+		b = scan.nextFloat();
+		c = scan.nextFloat();
+		d = b*b - (8*a*c);
+		
+		if(d>0) {
+			root1 = (-b+ (float)Math.sqrt(d))/(4*a);
+			root2 = (-b- (float)Math.sqrt(d))/(4*a);
+			System.out.println("Real roots"+root1+" "+root2);
+		}
+		else if(d==0) {
+			root1 = -b/(4*a);
+			root2 = -b/(4*a);
+			System.out.println("Real and equal roots"+root1+" "+root2);
+		}
+		else
+			System.out.println("Imaginary Roots");
+	}
+	
+}

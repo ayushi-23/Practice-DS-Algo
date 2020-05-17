@@ -1,0 +1,27 @@
+//Assignment 2 Q3
+import java.util.*;
+
+public class Competitve {
+
+	public static void main (String args[]) {
+		float t_sal,basic,hra,da,allow=0,pf;
+		char grade;
+		Scanner scan = new Scanner(System.in);
+		basic = scan.nextFloat();
+		grade = scan.next().charAt(0);
+		
+		hra = (float)0.2*basic;
+		da = (float)0.5*basic;
+		pf = (float)0.11*basic;
+		if(grade =='A')
+			allow = 1700;
+		if(grade == 'B')
+			allow =1500;
+		if (grade =='C')
+			allow = 1300;
+		
+		t_sal = basic+hra+da+allow-pf;
+		System.out.println(t_sal);
+	}
+	
+}

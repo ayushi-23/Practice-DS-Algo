@@ -1,0 +1,58 @@
+//pattern hollow diamond
+import java.util.*;
+
+public class Competitve {
+
+	public static void main (String args[]) {
+		int N=9,i,j,k=0;
+		int m = N-3,flag=0;
+		//top triangle
+		
+			m = N-3;
+			for(i=1;i<=N;i=i+2) {
+			k=1;
+			while(k<m) {
+				System.out.print("*");
+				++k;
+			}
+		   for(j=1;j<=i;++j) {
+				System.out.print(" ");
+			}
+		   k=1;
+		   while(k<m) {
+				System.out.print("*");
+				++k;
+			}
+			System.out.println();
+			m=m-1;
+			
+		}
+		//bottom triangle
+		
+		for(i=N-1;i>0;i=i-2) {
+			k=3;
+			while(k>m) {
+				System.out.print("*");
+				--k;
+			}
+		   for(j=1;j<i;++j) {
+				System.out.print(" ");
+			}
+		   k=3;
+		   while(k>m) {
+				System.out.print("*");
+				--k;
+			}
+			System.out.println();
+			m=m-1;
+		}
+	
+	
+	
+	//right top triangle
+	
+	
+	
+}
+
+}

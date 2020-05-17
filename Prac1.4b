@@ -1,0 +1,23 @@
+//pattern 2
+import java.util.*;
+
+public class Competitve {
+
+	public static void main (String args[]) {
+		int N=5,i,j,k=0;
+		int m = N-1;
+		for(i=N;i>=1;--i) {
+			k=1;
+			while(k<=m) {
+				System.out.print(" ");
+				++k;
+			}
+		   for(j=N;j>=i;--j) {
+				System.out.print(i+" ");
+			}
+			System.out.println();
+			m=m-1;
+		}
+	}
+	
+}
