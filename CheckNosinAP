@@ -1,6 +1,10 @@
 import java.util.*;
-//quesn 3.7
-public class Competitve {
+/*
+author : Ayushi Saxena
+Problem statement : Check Numbers in AP
+*/
+
+public class Main {
 	
 	public static void main (String args[]) {
 		int num;
@@ -16,6 +20,7 @@ public class Competitve {
 			
 			if(arr[i] != arr[0]+(i)*d) {
 				flag=1;
+				break;
 			}
 			}
 		}
